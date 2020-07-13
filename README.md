@@ -18,3 +18,11 @@ Patient Report will have the following fields
 Created by doctor
 Status: Can be either of: [Negative, Travelled-Quarantine, Symptoms-Quarantine, Positive-Admit]
 Date
+
+
+How to set it up on your local Computer?
+Clone the Package to your local System
+Navigate to the folder wherein the project has been cloned
+Open Terminal and type npm install [Make sure node is already installed in your system!]
+Type node index.js || npm start
+Open browser and goto localhost:8000

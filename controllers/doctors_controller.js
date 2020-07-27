@@ -20,8 +20,6 @@ module.exports.register=async function (req,res){
     }catch(err){               // handle error
       return res.json(200,{
        message:"username is already registered",
-       error:err
-
       });
   }
 }  

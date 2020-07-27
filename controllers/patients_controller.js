@@ -28,7 +28,7 @@ module.exports.register=async function (req,res) {
              .populate("createdBy");
          }
        }catch(err){           // handle error
-  return res.json(400,{
+      return res.json(400,{
       message:"Internal server error",
       error:err
   });
